@@ -2,7 +2,10 @@
 
 # Install required applications via apt
 sudo apt update
-sudo apt install -y wget openjdk-11-jre 
+sudo apt install -y wget openjdk-11-jre
+
+# Install bash-completion for Git on WSL-Debian
+sudo apt install -y bash-completion
 
 # Create the target directory to install MS-GCM
 INSTALLATION_DIRNAME="$HOME/git-credential-manager-2.0.4/"
