@@ -15,3 +15,4 @@ mkdir -p $INSTALLATION_DIRNAME
 MS_GCM_DOWNLOAAD_LINK="https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux/releases/download/git-credential-manager-2.0.4/git-credential-manager-2.0.4.jar"
 wget $MS_GCM_DOWNLOAAD_LINK -P $INSTALLATION_DIRNAME
 java -jar $INSTALLATION_DIRNAME/git-credential-manager-2.0.4.jar install
+git config --global credential.canFallBackToInsecureStore true
