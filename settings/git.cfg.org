@@ -1,0 +1,2 @@
+user_name="Dongsik"
+user_username="dongsiku"
