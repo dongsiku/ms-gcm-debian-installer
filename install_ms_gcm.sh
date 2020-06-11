@@ -35,8 +35,8 @@ fi
 
 # Set up .gitconfig
 if [ -f $GITCONFIG_FILENAME ]; then
-    git config --global uesr.name $user_name
-    git config --global uesr.username $user_username
+    git config --global user.name $user_name
+    git config --global user.username $user_username
     git config --global color.ui auto
 fi
 
