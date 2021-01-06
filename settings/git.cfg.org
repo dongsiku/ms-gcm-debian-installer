@@ -1,2 +1,3 @@
-user_name="Dongsik"
+user_name="Muneue SUWA"
 user_username="dongsiku"
+user_email="34128654+dongsiku@users.noreply.github.com"
